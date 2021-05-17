@@ -29,16 +29,16 @@ str2 = 'ye'
 
 # p third_anagram?(str1, str2)
 
-def forth_anagram?(str1, str2)
+def forth_anagram?(str1, str2) #O(n)
   # hash1 = Hash.new(0)
   # hash2 = Hash.new(0)
-  # str1.each_char do |char|
+  # str1.each_char do |char| #n
   #   hash1[char] += 1
   # end
-  # str2.each_char do |char|
+  # str2.each_char do |char| #n
   #   hash2[char] += 1
   # end
-  # hash1.each do |k, v|
+  # hash1.each do |k, v| #n
   #   return false unless hash2.has_key?(k)
   #   return false unless v == hash2[k]
   # end
